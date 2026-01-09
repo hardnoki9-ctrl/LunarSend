@@ -92,7 +92,7 @@ const PricingCTA: React.FC = () => {
                   name="message"
                   required
                   rows={5}
-                  placeholder="Tell us about your case..." 
+                  placeholder="Tell us about your case... or leave your Telegram / Viber / WA, and we will connect with you there" 
                   className="w-full bg-white/[0.03] border border-white/[0.05] rounded-2xl px-6 py-4 text-white placeholder-slate-700 focus:outline-none focus:border-indigo-500/50 focus:bg-white/[0.05] transition-all text-sm resize-none"
                 ></textarea>
               </div>
