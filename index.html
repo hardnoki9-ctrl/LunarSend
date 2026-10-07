@@ -8,6 +8,23 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MMBXF2PL');</script>
     <!-- End Google Tag Manager -->
+    <script>
+        (function(window, document) {
+            if (!window.rdt) {
+                var pixel = window.rdt = function() {
+                    pixel.sendEvent ? pixel.sendEvent.apply(pixel, arguments) : pixel.callQueue.push(arguments);
+                };
+                pixel.callQueue = [];
+                var script = document.createElement('script');
+                script.src = 'https://www.redditstatic.com/ads/pixel.js';
+                script.async = true;
+                var firstScript = document.getElementsByTagName('script')[0];
+                firstScript.parentNode.insertBefore(script, firstScript);
+            }
+        })(window, document);
+        rdt('init', 'a2_jt6olxhccqbt');
+        rdt('track', 'PageVisit');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LunarSend - High Performance SMS Gateway</title>
